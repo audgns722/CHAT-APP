@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import GenderCheckbox from "./GenderCheckbox";
+import GenderCheckbox from "./GenderCheckbox.jsx";
 import { useState } from "react";
 import useSignup from "../../hooks/useSignup.js";
 
-const SignUp = () => {
+const Signup = () => {
   const [inputs, setInputs] = useState({
     fullName: "",
     username: "",
@@ -118,11 +118,11 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Signup;
 
 // import GenderCheckbox from "./GenderCheckbox";
 
-// const Signup = () => {
+// const SignUp = () => {
 //   return (
 //     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
 //       <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
@@ -192,4 +192,4 @@ export default SignUp;
 //   );
 // };
 
-// export default Signup;
+// export default SignUp;
